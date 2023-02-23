@@ -95,15 +95,15 @@ class Side_menu(ttk.Frame):
             help_label = tk.Label(top,background="#FFFFFF",
                                 foreground="#000000",
                                 font=("Adobe Caslon Pro", 10),
-                                text="This is basic Encryption app\nTo encrypt/decrypt click on buttons\nand respectively proceed further\n\nOR\n\nyou can visit our side below\n")
+                                text="This is basic Encryption app\nTo encrypt/decrypt click on buttons\nand respectively proceed further\n\nOR\n\nyou can visit our site below\n")
             help_label.pack(expand=True, fill="both")
 
             def site_btn():
-                url = "https://twinkle0gupta.github.io/"
+                url = "https://twinkle1gupta.github.io/twinkle1gupta.io/"
                 webbrowser.open_new_tab(url)
 
-            site_btn = tk.Button(top,command=site_btn,font=("Adobe Caslon Pro", 10,"bold"),anchor="s",text="https://twinkle0gupta.github.io/",borderwidth=0,highlightbackground="#FFFFFF",highlightcolor="#FFFFFF",highlightthickness=0,foreground='#000000',background="#FFFFFF")
-            site_btn.pack(fill="both")
+            site_btn = tk.Button(top,command=site_btn,font=("Adobe Caslon Pro", 10,"bold"),anchor="s",text="https://twinkle1gupta.io/",borderwidth=0,highlightbackground="#FFFFFF",highlightcolor="#FFFFFF",highlightthickness=0,foreground='#000000',background="#FFFFFF")
+            site_btn.place(relx=0,rely=0.75,relwidth=1)
 
         #help_button
         # help_img = tk.PhotoImage(file="media/help_icon.png")
@@ -174,5 +174,5 @@ class image_menu(ttk.Frame):
         btn.place(x=20,y=550)
 
 
-MAINAPP(title="app")
+MAINAPP(title="An Improved Crypto System")
 

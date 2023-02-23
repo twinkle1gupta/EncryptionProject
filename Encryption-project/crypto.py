@@ -210,7 +210,7 @@ class EncFileSaver():
 
         self.file = os.path.join(self.cwpath,f"en_file{self.file_extension}")
         self.salt_hex = salt.hex()
-        self.CheckIfFileExists()
+        # self.CheckIfFileExists()
 
     def CheckIfFileExists(self):
 
@@ -291,8 +291,6 @@ class DecryptTextFile():
     def rtrn(self):
         return self.file_name
 
-        # print(decrypted_data)
-        # print(self.extension)
 
 class DecryptImageFile():
     def __init__(self,file_path,pswd):
@@ -334,7 +332,7 @@ class DecryptFileSaver():
         cwpath = os.getcwd() + "/Decrypted_files"
 
         self.file = os.path.join(cwpath,f"dec_file{extension}")
-        self.checkFile()
+        # self.checkFile()
 
     def checkFile(self):
 

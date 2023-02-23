@@ -87,13 +87,13 @@ def window(theme_of_app, tit_le):
         help_label = Label(top,background="#FFFFFF",
                             foreground="#000000",
                             font=("Adobe Caslon Pro", 10),
-                            text="This is basic Encryption app\n\nto use this app \nselect file \nand\n click on Encrypt/Decrypt file button\nto encrpyt or decrpyt\n\nor in Text box you can enter \ntext to encrypt/decrypt \nand save it in .txt fileOR\n\nyou can visit our side below")
+                            text="This is basic Encryption app\n\nto use this app \nselect file \nand\n click on Encrypt/Decrypt file button\nto encrpyt or decrpyt\n\nor in Text box you can enter \ntext to encrypt/decrypt \nand save it in .txt file\nOR\nyou can visit our site below")
         help_label.pack(expand=True, fill="both")
         def site_btn():
-                url = "https://twinkle0gupta.github.io/"
+                url = "https://twinkle1gupta.github.io/twinkle1gupta.io/"
                 webbrowser.open_new_tab(url)
 
-        site_btn = Button(top,command=site_btn,anchor="s",text="https://twinkle0gupta.github.io/",borderwidth=0,highlightbackground="#FFFFFF",highlightcolor="#FFFFFF",highlightthickness=0,foreground='#000000',background="#FFFFFF",font=("Adobe Caslon Pro", 10,"bold"))
+        site_btn = Button(top,command=site_btn,anchor="s",text="https://twinkle1gupta.io/",borderwidth=0,highlightbackground="#FFFFFF",highlightcolor="#FFFFFF",highlightthickness=0,foreground='#000000',background="#FFFFFF",font=("Adobe Caslon Pro", 10,"bold"))
         site_btn.pack(fill="both")
 
     #help_button
@@ -115,7 +115,7 @@ def window(theme_of_app, tit_le):
         global file
         
         file = filedialog.askopenfile(initialdir=os.getcwd(),mode='r',
-                                title="select file",
+                                title="Browse file",
                                 filetypes=(("Text files", "*.txt"),("CSV files","*.csv"),("MarkDown files","*.md"),("All file types", "*.*")))
         if file:
             if theme:
@@ -126,7 +126,7 @@ def window(theme_of_app, tit_le):
                                         font=("Adobe Caslon Pro", 10),bg="#FFFFFF",fg="#000000")
             open.file_name_label.place(x=30,y=450, width=450, height=90)
 
-    open_file_btn = Button(root, text="select file!", command=open, background          = "#C38FFF", 
+    open_file_btn = Button(root, text="Browse file!", command=open, background          = "#C38FFF", 
                                                                     foreground          = "#000000",
                                                                     highlightcolor      = "#C1A2E5",
                                                                     highlightbackground = "#C1A2E5",
@@ -254,7 +254,7 @@ def window(theme_of_app, tit_le):
                         file_name_de,decrypt_message_ = main_dec(passwrod,ecn_text)
                         file_name_req = file_name_de.split("/")[-1]
                         
-                        messagebox.showinfo("successful",f"Text encryption successful!\nYour encrypted file is saved to /Encrypted_files/{file_name_req}")
+                        messagebox.showinfo("successful",f"Text Decryption successful!\nYour Decrypted file is saved to /Decrypted_files/{file_name_req}")
                         CustomDialougeBoxToCopyText(root, "Decrypted Text",decrypt_message_)
                     except:
                         messagebox.showwarning("Wrong password","YOU TYPED INVALID PASSWORD\nTRY AGAIN WITH RIGTH PASSWORD")
