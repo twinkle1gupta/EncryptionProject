@@ -4,8 +4,10 @@
 
 *App may look different on different os. Pictures given below are of linux*
 
+
 ## The main window
 ![ScreenShot](media/main_win_dark.png?raw=true "Title") 
+![main_win_light](https://user-images.githubusercontent.com/126047820/221100094-dfba1167-b387-4db9-8437-ce6617eb7699.png)
 ![ScreenShot](media/main_win_light.png?raw=true "Title")
 
 There are two themes available.
