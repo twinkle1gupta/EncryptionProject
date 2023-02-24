@@ -90,7 +90,7 @@ def window(theme_of_app, tit_le):
                             text="This is basic Encryption app\n\nto use this app \nselect file \nand\n click on Encrypt/Decrypt file button\nto encrpyt or decrpyt\n\nor in Text box you can enter \ntext to encrypt/decrypt \nand save it in .txt file\nOR\nyou can visit our site below")
         help_label.pack(expand=True, fill="both")
         def site_btn():
-                url = "https://twinkle1gupta.github.io/twinkle1gupta.io/"
+                url = "https://twinkle1gupta.github.io/twinkle1gupta.io/help.html"
                 webbrowser.open_new_tab(url)
 
         site_btn = Button(top,command=site_btn,anchor="s",text="https://twinkle1gupta.io/",borderwidth=0,highlightbackground="#FFFFFF",highlightcolor="#FFFFFF",highlightthickness=0,foreground='#000000',background="#FFFFFF",font=("Adobe Caslon Pro", 10,"bold"))
