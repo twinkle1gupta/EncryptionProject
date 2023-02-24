@@ -30,6 +30,14 @@ User intended to get their text "Decrypted' can either select via browsding thei
 Along with this there is also a help button in the corner for user in case of any trouble.
 ![help_icon](https://user-images.githubusercontent.com/126047820/221100690-6c23f89c-b42f-4b4d-93dc-d18d2f463f16.png)
 
+![help](https://user-images.githubusercontent.com/126047820/221100858-19495605-f6cf-4b2b-98ba-512051cb5978.png)
+
+## Website
+website's home page: [Visit our webisite!](https://twinkle1gupta.github.io/twinkle1gupta.io/)
+
+website's help page: [help center](https://twinkle1gupta.github.io/twinkle1gupta.io/help.html)
+
+check out my profile: [Twinkle Gupta](https://linktr.ee/twinkle_gupta2911)
 
 ---
 Files supported by app are:
@@ -38,3 +46,19 @@ Files supported by app are:
 - Text file (.txt)
 - CSV, Excel File (.csv, xlsx)
 - PDF files with text only, which do not contain any kind of images, vectors, etc. (.pdf)
+
+
+---
+
+# Installation
+
+### requirements
+  - python3.6+
+  python modules listed:
+    - cryptography 39.0.1 (can be installed by requirements.txt)
+    
+      ```pip install -r requirements.txt```
+    - webbrowser, windows, os, tkinter (inbuilt)
+  
+  - Run main.py and you are ready to go!!
+ 
