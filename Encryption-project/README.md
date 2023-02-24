@@ -5,8 +5,8 @@
 *App may look different on different os. Pictures given below are of linux*
 
 ## The main window
-![ScreenShot](/media/main_win_dark.png?raw=true "Title") 
-![ScreenShot](/media/main_win_light.png?raw=true "Title")
+![ScreenShot](media/main_win_dark.png?raw=true "Title") 
+![ScreenShot](media/main_win_light.png?raw=true "Title")
 
 There are two themes available.
 
