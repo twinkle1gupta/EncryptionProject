@@ -99,7 +99,7 @@ class Side_menu(ttk.Frame):
             help_label.pack(expand=True, fill="both")
 
             def site_btn():
-                url = "https://twinkle1gupta.github.io/twinkle1gupta.io/"
+                url = "https://twinkle1gupta.github.io/twinkle1gupta.io/help.html"
                 webbrowser.open_new_tab(url)
 
             site_btn = tk.Button(top,command=site_btn,font=("Adobe Caslon Pro", 10,"bold"),anchor="s",text="https://twinkle1gupta.io/",borderwidth=0,highlightbackground="#FFFFFF",highlightcolor="#FFFFFF",highlightthickness=0,foreground='#000000',background="#FFFFFF")
